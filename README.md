@@ -26,15 +26,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:022C22,25:15803D,50:4ADE80,75:15803D,100:022C22&height=5&section=header" width="82%" />
 
-```console
-weenuka@sri-lanka:~$ whoami
-> undergraduate · builder of systems that sense, predict and act
-weenuka@sri-lanka:~$ cat stack.txt
-> ESP32 · Python · TensorFlow · Flask · React · Flutter
-weenuka@sri-lanka:~$ status
-> ● online — currently training LSTMs on noisy field telemetry
-```
-
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=1200&color=4ADE80&center=true&vCenter=true&width=700&lines=sensor+%E2%86%92+model+%E2%86%92+decision+%E2%86%92+actuator;forecasting+on+noisy%2C+gap-filled+telemetry;firmware+to+dashboard%2C+end+to+end" alt="Typing SVG" />
 
 <br/>
