@@ -9,11 +9,20 @@
 ════════════════════════════════════════════════════════════════
 -->
 
-<!-- ══════════ HEADER · STYLE 1 (ACTIVE) — "Terminal Green" ══════════ -->
+<!-- ══════════ HEADER · STYLE 1 (ACTIVE) — "Terminal Green" ══════════
+     TUNING THE BUBBLE:
+       height=320      → taller/shorter bubble (try 260–400)
+       fontSize=82     → name size (lower it if your name is long)
+       fontAlignY=42   → vertical position of the name, as a %
+                         (lower number = higher up in the bubble)
+       descAlignY=62   → vertical position of the subtitle
+     Rule of thumb: keep fontAlignY between 38 and 50 so the name
+     stays well inside the filled area of the bubble.
+──────────────────────────────────────────────────────────────── -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:022C22,40:15803D,100:4ADE80&height=230&section=header&text=WEENUKA&fontSize=68&fontColor=ECFDF5&animation=fadeIn&fontAlignY=32&desc=embedded%20systems%20%E2%80%A2%20applied%20ML%20%E2%80%A2%20full-stack&descAlignY=52&descSize=17&fontFamily=JetBrains%20Mono" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:022C22,45:15803D,100:4ADE80&height=320&section=header&text=WEENUKA&fontSize=82&fontColor=ECFDF5&animation=fadeIn&fontAlignY=42&desc=embedded%20systems%20%E2%80%A2%20applied%20ML%20%E2%80%A2%20full-stack&descAlignY=62&descSize=18&fontFamily=JetBrains%20Mono" width="100%" />
 
 ```console
 weenuka@sri-lanka:~$ whoami
@@ -287,7 +296,7 @@ If you work on embedded systems, applied ML, or agri-tech — I'd like to talk.
 
 *"The best system is the one a farmer actually opens on their phone."*
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:4ADE80,60:15803D,100:022C22&height=130&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:4ADE80,55:15803D,100:022C22&height=150&section=footer" width="100%" />
 
 </div>
 
