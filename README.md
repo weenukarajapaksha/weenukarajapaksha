@@ -11,18 +11,20 @@
 
 <!-- ══════════ HEADER · STYLE 1 (ACTIVE) — "Terminal Green" ══════════
      TUNING THE BUBBLE:
-       height=320      → taller/shorter bubble (try 260–400)
-       fontSize=82     → name size (lower it if your name is long)
-       fontAlignY=42   → vertical position of the name, as a %
-                         (lower number = higher up in the bubble)
-       descAlignY=62   → vertical position of the subtitle
-     Rule of thumb: keep fontAlignY between 38 and 50 so the name
-     stays well inside the filled area of the bubble.
+       height=180        → bubble size (try 150–240)
+       width="88%"       → how wide the bubble sits on the page
+       fontSize=52       → name size. KEEP IT ROUGHLY height ÷ 3.5,
+                           otherwise the name spills out of the bubble
+       fontAlignY=40     → vertical position of the name, as a %
+                           (lower number = higher up)
+       descAlignY=68     → vertical position of the subtitle
+       animation=twinkling → loops forever. Other options:
+                           fadeIn / scaleIn / blinking (these play once)
 ──────────────────────────────────────────────────────────────── -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:022C22,45:15803D,100:4ADE80&height=320&section=header&text=WEENUKA&fontSize=82&fontColor=ECFDF5&animation=fadeIn&fontAlignY=42&desc=embedded%20systems%20%E2%80%A2%20applied%20ML%20%E2%80%A2%20full-stack&descAlignY=62&descSize=18&fontFamily=JetBrains%20Mono" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:022C22,45:15803D,100:4ADE80&height=180&section=header&text=WEENUKA&fontSize=52&fontColor=ECFDF5&animation=twinkling&fontAlignY=40&desc=embedded%20systems%20%E2%80%A2%20applied%20ML%20%E2%80%A2%20full-stack&descAlignY=68&descSize=14&fontFamily=JetBrains%20Mono" width="88%" />
 
 ```console
 weenuka@sri-lanka:~$ whoami
