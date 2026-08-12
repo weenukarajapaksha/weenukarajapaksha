@@ -1,31 +1,70 @@
 <!--
-════════════════════════════════════════════════════════════
-  GITHUB PROFILE README
-  ──────────────────────────────────────────────────────────
-  SETUP: Find & replace  YOUR-USERNAME  with your GitHub
-  handle (it appears in the stats cards + links below).
-  Then put this file in a repo named exactly like your
-  username, e.g.  github.com/YOUR-USERNAME/YOUR-USERNAME
-════════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════════════
+  GITHUB PROFILE README  ·  Weenuka
+  ──────────────────────────────────────────────────────────────
+  ⚠️  SETUP — DO THIS FIRST:
+  Find & replace  YOUR-USERNAME  with your real GitHub handle.
+  If you skip this, NONE of the stats cards will render.
+  Then put this file in a repo named exactly like your username.
+════════════════════════════════════════════════════════════════
 -->
+
+<!-- ══════════ HEADER · STYLE 1 (ACTIVE) — "Terminal Green" ══════════ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,50:0891B2,100:22D3EE&height=200&section=header&text=Weenuka&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Embedded%20Systems%20%C2%B7%20Applied%20ML%20%C2%B7%20Full-Stack&descAlignY=55&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:022C22,40:15803D,100:4ADE80&height=230&section=header&text=WEENUKA&fontSize=68&fontColor=ECFDF5&animation=fadeIn&fontAlignY=32&desc=embedded%20systems%20%E2%80%A2%20applied%20ML%20%E2%80%A2%20full-stack&descAlignY=52&descSize=17&fontFamily=JetBrains%20Mono" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=22D3EE&center=true&vCenter=true&width=680&lines=Sensor+%E2%86%92+Model+%E2%86%92+Decision+%E2%86%92+Actuator;LSTM+forecasting+on+noisy+field+telemetry;ESP32+firmware+to+React+dashboard%2C+end+to+end" alt="Typing SVG" />
+```console
+weenuka@sri-lanka:~$ whoami
+> undergraduate · builder of systems that sense, predict and act
+weenuka@sri-lanka:~$ cat stack.txt
+> ESP32 · Python · TensorFlow · Flask · React · Flutter
+weenuka@sri-lanka:~$ status
+> ● online — currently training LSTMs on noisy field telemetry
+```
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=1200&color=4ADE80&center=true&vCenter=true&width=700&lines=sensor+%E2%86%92+model+%E2%86%92+decision+%E2%86%92+actuator;forecasting+on+noisy%2C+gap-filled+telemetry;firmware+to+dashboard%2C+end+to+end" alt="Typing SVG" />
 
 <br/>
 
-<a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-0F766E?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0891B2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<img src="https://komarev.com/ghpvc/?username=YOUR-USERNAME&style=for-the-badge&color=22D3EE&label=PROFILE+VIEWS" />
+<a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/EMAIL-14532D?style=for-the-badge&logo=gmail&logoColor=4ADE80&labelColor=022C22" /></a>
+<a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LINKEDIN-14532D?style=for-the-badge&logo=linkedin&logoColor=4ADE80&labelColor=022C22" /></a>
+<img src="https://komarev.com/ghpvc/?username=YOUR-USERNAME&style=for-the-badge&color=15803D&label=VISITORS" />
 
 </div>
 
+<!--
+╔══════════════════════════════════════════════════════════════╗
+║  HEADER · STYLE 2 — "Forest Canopy"                          ║
+║  A softer, layered look. To use it: delete the Style 1 block ║
+║  above and uncomment everything between these lines.         ║
+╚══════════════════════════════════════════════════════════════╝
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:064E3B,50:059669,100:A3E635&height=190&section=header&text=Weenuka&fontSize=62&fontColor=F0FDF4&animation=twinkling&fontAlignY=48&fontFamily=Kanit" width="100%" />
+
+<h3>
+
+`🌿 embedded systems` &nbsp;·&nbsp; `🧠 applied machine learning` &nbsp;·&nbsp; `⚙️ full-stack`
+
+</h3>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A3E635&center=true&vCenter=true&width=700&lines=I+build+closed-loop+systems;From+the+sensor+in+the+soil+to+the+screen+in+your+hand;Technology+that+solves+real+local+problems" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/-Sri_Lanka-A3E635?style=flat-square&logo=googlemaps&logoColor=064E3B" />
+<img src="https://img.shields.io/badge/-Open_to_internships-059669?style=flat-square&logoColor=white" />
+
+</div>
+
+-->
+
 ---
 
-## 🌊 About Me
+## 🌿 About Me
 
 ```yaml
 name:       Weenuka
@@ -37,43 +76,9 @@ interests:  Time-series forecasting, sensor fusion, edge/cloud split
 currently:  Multivariate LSTMs on noisy, gap-filled field telemetry
 ```
 
-I build **closed-loop systems**: firmware that samples the physical world, a model that turns that stream into a forecast, and an interface that converts the forecast into an action a non-technical person will actually take. The interesting engineering is rarely the model — it's everything around it. Clock drift, sensor fouling, dropped WiFi packets, ADC non-linearity, and what the system should do when the network is gone for six hours.
+I build **closed-loop systems**: firmware that samples the physical world, a model that turns that stream into a forecast, and an interface that converts the forecast into an action a non-technical person will actually take.
 
----
-
-## 🏗️ System Architecture I Build
-
-```mermaid
-flowchart LR
-    subgraph EDGE["⚡ EDGE — ESP32-C6 / Arduino"]
-        S1[Analog sensors<br/>ADC + calibration curve]
-        S2[Digital sensors<br/>1-Wire / I2C]
-        S1 --> FW[Firmware loop<br/>sample · smooth · buffer]
-        S2 --> FW
-        FW --> ACT[Relay / solenoid<br/>+ safety auto-close]
-    end
-
-    subgraph API["🔌 BACKEND — Flask + SQLite"]
-        FW -->|HTTP POST JSON<br/>over WiFi| ING[Ingest + validate]
-        ING --> DB[(Time-series store)]
-        DB --> INF[Model server<br/>load model.h5]
-    end
-
-    subgraph ML["🧠 INFERENCE"]
-        INF --> LSTM[Multivariate LSTM<br/>sliding window forecast]
-        LSTM --> RISK[Risk classification<br/>safe · caution · critical]
-        RISK --> GEM[Gemini API<br/>→ plain Sinhala advisory]
-    end
-
-    subgraph CLIENT["📱 CLIENTS"]
-        GEM --> WEB[React dashboard<br/>polling + stale-data state]
-        GEM --> MOB[Flutter app<br/>offline cache + FCM push]
-    end
-
-    RISK -.->|control decision| ACT
-```
-
-**The design principle:** every layer must degrade gracefully. Firmware buffers when the backend is unreachable, the dashboard visibly marks stale data rather than showing a confident stale number, and actuators fail *closed* on a hardware timer that doesn't depend on the network being alive.
+The interesting engineering is rarely the model — it's everything around it. Clock drift, sensor fouling, dropped WiFi packets, ADC non-linearity, and what the system should do when the network has been gone for six hours.
 
 ---
 
@@ -83,43 +88,44 @@ flowchart LR
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++17-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-14532D?style=flat-square&logo=python&logoColor=4ADE80)
+![C++](https://img.shields.io/badge/C++17-14532D?style=flat-square&logo=cplusplus&logoColor=4ADE80)
+![JavaScript](https://img.shields.io/badge/JavaScript-14532D?style=flat-square&logo=javascript&logoColor=4ADE80)
+![Dart](https://img.shields.io/badge/Dart-14532D?style=flat-square&logo=dart&logoColor=4ADE80)
+![SQL](https://img.shields.io/badge/SQL-14532D?style=flat-square&logo=postgresql&logoColor=4ADE80)
 
 **ML / Data**
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-14532D?style=flat-square&logo=tensorflow&logoColor=4ADE80)
+![Keras](https://img.shields.io/badge/Keras-14532D?style=flat-square&logo=keras&logoColor=4ADE80)
+![PyTorch](https://img.shields.io/badge/PyTorch-14532D?style=flat-square&logo=pytorch&logoColor=4ADE80)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-14532D?style=flat-square&logo=scikitlearn&logoColor=4ADE80)
+![Pandas](https://img.shields.io/badge/Pandas-14532D?style=flat-square&logo=pandas&logoColor=4ADE80)
+![NumPy](https://img.shields.io/badge/NumPy-14532D?style=flat-square&logo=numpy&logoColor=4ADE80)
+![OpenCV](https://img.shields.io/badge/OpenCV-14532D?style=flat-square&logo=opencv&logoColor=4ADE80)
 
 **Architectures & Techniques**
 
 `LSTM / sequence forecasting` · `Siamese networks` · `YOLO object detection` · `CNN transfer learning`
+
 `K-Means · AGNES · DBSCAN` · `Sensor fusion` · `Digital signal processing` · `Time-series resampling`
 
 **Web / Mobile / Backend**
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Firebase](https://img.shields.io/badge/FCM-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![React](https://img.shields.io/badge/React-14532D?style=flat-square&logo=react&logoColor=4ADE80)
+![Flask](https://img.shields.io/badge/Flask-14532D?style=flat-square&logo=flask&logoColor=4ADE80)
+![Flutter](https://img.shields.io/badge/Flutter-14532D?style=flat-square&logo=flutter&logoColor=4ADE80)
+![Node.js](https://img.shields.io/badge/Node.js-14532D?style=flat-square&logo=nodedotjs&logoColor=4ADE80)
+![Express](https://img.shields.io/badge/Express-14532D?style=flat-square&logo=express&logoColor=4ADE80)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14532D?style=flat-square&logo=postgresql&logoColor=4ADE80)
+![SQLite](https://img.shields.io/badge/SQLite-14532D?style=flat-square&logo=sqlite&logoColor=4ADE80)
+![Firebase](https://img.shields.io/badge/FCM-14532D?style=flat-square&logo=firebase&logoColor=4ADE80)
 
 **Embedded & Protocols**
 
-![ESP32](https://img.shields.io/badge/ESP32--C6-E7352C?style=flat-square&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino_Framework-00979D?style=flat-square&logo=arduino&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32--C6-14532D?style=flat-square&logo=espressif&logoColor=4ADE80)
+![Arduino](https://img.shields.io/badge/Arduino-14532D?style=flat-square&logo=arduino&logoColor=4ADE80)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-14532D?style=flat-square&logo=raspberrypi&logoColor=4ADE80)
 
 `I²C` · `1-Wire` · `UART` · `ADC / analog calibration` · `PWM` · `HTTP/REST` · `Relay & solenoid control`
 
@@ -150,7 +156,7 @@ Four-layer architecture — **SENSE → PREDICT → ADVISE → ACT**. ESP32 samp
 
 ESP32-C6 on the Arduino framework reading a **DS18B20** over 1-Wire, a **capacitive soil moisture probe on GPIO3 (ADC1)** with a calibrated dry/wet range, an LDR for light and a TCS3200 for leaf-colour tracking — rendered locally on an SSD1306 I²C OLED and POSTed as JSON to a Flask API.
 
-**Engineering focus:** a 12V NC solenoid switched through a 5V relay on an isolated supply, with a **firmware-level auto-close safety timer** so a crashed backend can't flood a field. One Flask backend serves two clients (React + Flutter); the mobile app caches last-known readings for offline field use and receives FCM push alerts. Trained LSTM is exported as `model.h5` and served from the backend.
+**Engineering focus:** a 12V NC solenoid switched through a 5V relay on an isolated supply, with a **firmware-level auto-close safety timer** so a crashed backend can't flood a field. One Flask backend serves two clients; the mobile app caches last-known readings for offline field use and receives FCM push alerts. Trained LSTM exported as `model.h5` and served from the backend.
 
 `ESP32-C6` `TensorFlow` `Flask` `SQLite` `React` `Flutter`
 
@@ -176,7 +182,7 @@ Detects and localises visual differences between two similar images or video fra
 
 A Flutter app that captures spoken Sinhala and generates correctly structured official Sinhala documents through the Gemini API.
 
-**Engineering focus:** working in a **low-resource language** where off-the-shelf STT and formatting assumptions break down — Sinhala script rendering and font fallback on Android, prompt design that enforces formal register and fixed document structure rather than conversational output, and handling the gap between colloquial spoken Sinhala and formal written form.
+**Engineering focus:** working in a **low-resource language** where off-the-shelf STT and formatting assumptions break down — Sinhala script rendering and font fallback on Android, prompt design that enforces formal register and fixed document structure rather than conversational output, and bridging the gap between colloquial spoken Sinhala and formal written form.
 
 `Flutter` `Dart` `Gemini API` `Speech-to-Text` `Unicode Sinhala`
 
@@ -190,7 +196,7 @@ A Flutter app that captures spoken Sinhala and generates correctly structured of
 
 A low-latency audio processing desktop app written in pure Python — no DAW, no plugin host.
 
-**Engineering focus:** a real-time callback-driven DSP chain (`sounddevice`) running noise gate → **custom YIN-based pitch detection and correction** → harmony generation → compressor → 3-band EQ → creative FX (robot, delay, reverb), built to hold a stable buffer without dropouts. Also supports offline file rendering and preset recall.
+**Engineering focus:** a real-time callback-driven DSP chain (`sounddevice`) running noise gate → **custom YIN-based pitch detection and correction** → harmony generation → compressor → 3-band EQ → creative FX, built to hold a stable buffer without dropouts. Also supports offline file rendering and preset recall.
 
 `Python` `PySide6` `NumPy/SciPy` `sounddevice` `YIN` `DSP`
 
@@ -202,7 +208,7 @@ A low-latency audio processing desktop app written in pure Python — no DAW, no
 
 A two-sided marketplace matching event organisers with vendors through a structured bidding flow, built for the Algostrom Idealize Ideathon.
 
-**Engineering focus:** relational schema design for a bidding lifecycle in PostgreSQL, an Express REST layer, and Gemini-assisted requirement matching — plus a hand-built design system (defined palette and type scale) rather than assembling stock components.
+**Engineering focus:** relational schema design for a bidding lifecycle in PostgreSQL, an Express REST layer, and Gemini-assisted requirement matching — plus a hand-built design system rather than assembled stock components.
 
 `React` `Vite` `Tailwind` `Node.js` `Express` `PostgreSQL` `Gemini API`
 
@@ -220,11 +226,11 @@ Problems I've actually had to solve, rather than tutorials I've followed:
 |---|---|
 | **Analog sensor reading wrong** | Capacitive soil probe gave a compressed range — traced to supply voltage vs ESP32 ADC reference mismatch; fixed with a corrected supply and a re-derived dry/wet calibration curve |
 | **Threshold alarms fire too late** | Replaced reactive thresholding with a sequence model that forecasts the trend, so an alert arrives with usable lead time |
-| **Real event vs broken sensor** | Anomaly detection layer that checks physical plausibility and cross-sensor consistency before trusting a reading |
-| **Actuator safety without network** | Auto-close timer implemented in firmware, not in the backend — the valve closes even if the server dies mid-cycle |
+| **Real event vs broken sensor** | Anomaly detection layer checking physical plausibility and cross-sensor consistency before trusting a reading |
+| **Actuator safety without network** | Auto-close timer implemented in firmware, not the backend — the valve closes even if the server dies mid-cycle |
 | **Two clients, one API** | Single Flask contract consumed by React and Flutter; mobile caches last-known state so the field view still works offline |
-| **Stale data looks like live data** | Explicit freshness state in the UI driven by last-report timestamp, never an implicit assumption that the newest row is current |
-| **ML output that no one acts on** | Model output converted into plain-language Sinhala guidance via Gemini, so the end user gets an instruction, not a number |
+| **Stale data looks like live data** | Explicit freshness state in the UI driven by last-report timestamp, never assuming the newest row is current |
+| **ML output nobody acts on** | Model output converted into plain-language Sinhala guidance via Gemini — the user gets an instruction, not a number |
 
 **Workflow:** separate repos per component (firmware / backend / web / mobile), each documenting its role in the system contract.
 
@@ -234,16 +240,27 @@ Problems I've actually had to solve, rather than tutorials I've followed:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=0891B2&text_color=C9D1D9&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9&langs_count=8" />
+<!-- These shields.io badges are highly reliable and render even when the
+     stats cards below are rate-limited. They are your safety net. -->
+
+<img src="https://img.shields.io/github/followers/YOUR-USERNAME?style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=022C22&color=15803D" />
+<img src="https://img.shields.io/github/stars/YOUR-USERNAME?style=for-the-badge&logo=github&label=TOTAL%20STARS&labelColor=022C22&color=15803D" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=YOUR-USERNAME&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE" />
+<!-- ⚠️ If these cards show blank or "Maximum retries exceeded", the shared
+     public instance is rate-limited. See the setup notes at the bottom. -->
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400&bg_color=0D1117&title_color=4ADE80&icon_color=22C55E&text_color=D1FAE5&ring_color=4ADE80" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&hide_border=true&langs_count=8&cache_seconds=86400&bg_color=0D1117&title_color=4ADE80&text_color=D1FAE5" />
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR-USERNAME&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8" />
+<img src="https://streak-stats.demolab.com?user=YOUR-USERNAME&hide_border=true&background=0D1117&border=15803D&stroke=15803D&ring=4ADE80&fire=A3E635&currStreakLabel=4ADE80&sideLabels=D1FAE5&currStreakNum=ECFDF5&sideNums=ECFDF5&dates=6EE7B7" />
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=YOUR-USERNAME&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=8" />
 
 </div>
 
@@ -251,7 +268,7 @@ Problems I've actually had to solve, rather than tutorials I've followed:
 
 ## 🎯 Currently Working On
 
-- 🔭 **AquaSense** — actuator control loop, sensor fault detection, and weather data as an exogenous forecasting input
+- 🔭 **AquaSense** — actuator control loop, sensor fault detection, weather data as an exogenous forecasting input
 - 🌾 **RootWatch** — full vertical build: firmware → Flask API → LSTM serving → React dashboard → Flutter app → FCM alerts
 - 🧠 Deeper into **multivariate time-series forecasting** and **change-detection architectures**
 - 🌏 Making model output genuinely usable in **Sinhala** — generated in the language, not translated into it
@@ -264,12 +281,33 @@ Problems I've actually had to solve, rather than tutorials I've followed:
 
 If you work on embedded systems, applied ML, or agri-tech — I'd like to talk.
 
-<a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Say_Hello-0891B2?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
+<a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/SAY_HELLO-15803D?style=for-the-badge&logo=minutemailer&logoColor=ECFDF5&labelColor=022C22" /></a>
 
 <br/><br/>
 
 *"The best system is the one a farmer actually opens on their phone."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:0891B2,100:0F766E&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:4ADE80,60:15803D,100:022C22&height=130&section=footer" width="100%" />
 
 </div>
+
+<!--
+════════════════════════════════════════════════════════════════
+  IF THE STATS CARDS DON'T RENDER — CHECKLIST
+  ──────────────────────────────────────────────────────────────
+  1. Did you replace YOUR-USERNAME everywhere? Most common cause.
+  2. Open one card URL directly in your browser. If the browser
+     shows an error, the service is down — not your README.
+  3. The shared public instance is frequently rate-limited.
+     Permanent fix: deploy your own instance (free, ~5 min):
+       · Fork  github.com/anuraghazra/github-readme-stats
+       · Import the fork into vercel.com as a new project
+       · Add env var  PAT_1  = a GitHub personal access token
+       · Deploy, then replace  github-readme-stats.vercel.app
+         with  your-project-name.vercel.app  in the URLs above
+  4. GitHub caches images through its camo proxy. After fixing,
+     a broken image can persist for a while — hard-refresh.
+  5. For private repo commits to count, enable:
+     Settings → Public profile → Include private contributions
+════════════════════════════════════════════════════════════════
+-->
