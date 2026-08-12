@@ -2,29 +2,29 @@
 ════════════════════════════════════════════════════════════════
   GITHUB PROFILE README  ·  Weenuka
   ──────────────────────────────────────────────────────────────
-  ⚠️  SETUP — DO THIS FIRST:
-  Find & replace  YOUR-USERNAME  with your real GitHub handle.
-  If you skip this, NONE of the stats cards will render.
+  SETUP:
+  Username is already set to: weenukarajapaksha
+  Repo must be named exactly: weenukarajapaksha
   Then put this file in a repo named exactly like your username.
 ════════════════════════════════════════════════════════════════
 -->
 
-<!-- ══════════ HEADER · STYLE 1 (ACTIVE) — "Terminal Green" ══════════
-     TUNING THE BUBBLE:
-       height=180        → bubble size (try 150–240)
-       width="88%"       → how wide the bubble sits on the page
-       fontSize=52       → name size. KEEP IT ROUGHLY height ÷ 3.5,
-                           otherwise the name spills out of the bubble
-       fontAlignY=40     → vertical position of the name, as a %
-                           (lower number = higher up)
-       descAlignY=68     → vertical position of the subtitle
-       animation=twinkling → loops forever. Other options:
-                           fadeIn / scaleIn / blinking (these play once)
-──────────────────────────────────────────────────────────────── -->
+<!-- ══════════ NAME · STYLE "LIVE TYPE" (ACTIVE) ══════════
+     No box, no shape — the name types itself out in green,
+     with a blinking cursor, and loops forever.
+     TUNING:
+       size=58       → name size
+       duration=2500 → how fast it types (lower = faster)
+       pause=900     → hold time before it erases
+       color=22C55E  → green (readable on light AND dark themes)
+       lines=...     → the strings it cycles through, ';' separated
+────────────────────────────────────────────────────── -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:022C22,45:15803D,100:4ADE80&height=180&section=header&text=WEENUKA&fontSize=52&fontColor=ECFDF5&animation=twinkling&fontAlignY=40&desc=embedded%20systems%20%E2%80%A2%20applied%20ML%20%E2%80%A2%20full-stack&descAlignY=68&descSize=14&fontFamily=JetBrains%20Mono" width="88%" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=58&duration=2500&pause=900&color=22C55E&center=true&vCenter=true&width=820&height=100&lines=WEENUKA;%3C+WEENUKA+%2F%3E;%7B+WEENUKA+%7D" alt="Weenuka" />
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:022C22,25:15803D,50:4ADE80,75:15803D,100:022C22&height=5&section=header" width="82%" />
 
 ```console
 weenuka@sri-lanka:~$ whoami
@@ -41,7 +41,7 @@ weenuka@sri-lanka:~$ status
 
 <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/EMAIL-14532D?style=for-the-badge&logo=gmail&logoColor=4ADE80&labelColor=022C22" /></a>
 <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LINKEDIN-14532D?style=for-the-badge&logo=linkedin&logoColor=4ADE80&labelColor=022C22" /></a>
-<img src="https://komarev.com/ghpvc/?username=YOUR-USERNAME&style=for-the-badge&color=15803D&label=VISITORS" />
+<img src="https://komarev.com/ghpvc/?username=weenukarajapaksha&style=for-the-badge&color=15803D&label=VISITORS" />
 
 </div>
 
@@ -254,24 +254,24 @@ Problems I've actually had to solve, rather than tutorials I've followed:
 <!-- These shields.io badges are highly reliable and render even when the
      stats cards below are rate-limited. They are your safety net. -->
 
-<img src="https://img.shields.io/github/followers/YOUR-USERNAME?style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=022C22&color=15803D" />
-<img src="https://img.shields.io/github/stars/YOUR-USERNAME?style=for-the-badge&logo=github&label=TOTAL%20STARS&labelColor=022C22&color=15803D" />
+<img src="https://img.shields.io/github/followers/weenukarajapaksha?style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=022C22&color=15803D" />
+<img src="https://img.shields.io/github/stars/weenukarajapaksha?style=for-the-badge&logo=github&label=TOTAL%20STARS&labelColor=022C22&color=15803D" />
 
 <br/><br/>
 
 <!-- ⚠️ If these cards show blank or "Maximum retries exceeded", the shared
      public instance is rate-limited. See the setup notes at the bottom. -->
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400&bg_color=0D1117&title_color=4ADE80&icon_color=22C55E&text_color=D1FAE5&ring_color=4ADE80" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&hide_border=true&langs_count=8&cache_seconds=86400&bg_color=0D1117&title_color=4ADE80&text_color=D1FAE5" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=weenukarajapaksha&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400&bg_color=0D1117&title_color=4ADE80&icon_color=22C55E&text_color=D1FAE5&ring_color=4ADE80" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weenukarajapaksha&layout=compact&hide_border=true&langs_count=8&cache_seconds=86400&bg_color=0D1117&title_color=4ADE80&text_color=D1FAE5" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=YOUR-USERNAME&hide_border=true&background=0D1117&border=15803D&stroke=15803D&ring=4ADE80&fire=A3E635&currStreakLabel=4ADE80&sideLabels=D1FAE5&currStreakNum=ECFDF5&sideNums=ECFDF5&dates=6EE7B7" />
+<img src="https://streak-stats.demolab.com?user=weenukarajapaksha&hide_border=true&background=0D1117&border=15803D&stroke=15803D&ring=4ADE80&fire=A3E635&currStreakLabel=4ADE80&sideLabels=D1FAE5&currStreakNum=ECFDF5&sideNums=ECFDF5&dates=6EE7B7" />
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR-USERNAME&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=8" />
+<img src="https://github-profile-trophy.vercel.app/?username=weenukarajapaksha&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=8" />
 
 </div>
 
@@ -306,7 +306,7 @@ If you work on embedded systems, applied ML, or agri-tech — I'd like to talk.
 ════════════════════════════════════════════════════════════════
   IF THE STATS CARDS DON'T RENDER — CHECKLIST
   ──────────────────────────────────────────────────────────────
-  1. Did you replace YOUR-USERNAME everywhere? Most common cause.
+  1. Did you replace weenukarajapaksha everywhere? Most common cause.
   2. Open one card URL directly in your browser. If the browser
      shows an error, the service is down — not your README.
   3. The shared public instance is frequently rate-limited.
