@@ -242,16 +242,47 @@ Problems I've actually had to solve, rather than tutorials I've followed:
 
 <div align="center">
 
-<!-- These shields.io badges are highly reliable and render even when the
-     stats cards below are rate-limited. They are your safety net. -->
+<!-- ── TIER 1: shields.io. Different host, extremely reliable.
+     These are the ones that worked in your screenshot. ── -->
 
 <img src="https://img.shields.io/github/followers/weenukarajapaksha?style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=022C22&color=15803D" />
 <img src="https://img.shields.io/github/stars/weenukarajapaksha?style=for-the-badge&logo=github&label=TOTAL%20STARS&labelColor=022C22&color=15803D" />
 
 <br/><br/>
 
-<!-- ⚠️ If these cards show blank or "Maximum retries exceeded", the shared
-     public instance is rate-limited. See the setup notes at the bottom. -->
+<!-- ── TIER 2: github-profile-summary-cards. A SEPARATE project with
+     its own API quota, so it usually renders when the cards below
+     are rate-limited. ── -->
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=weenukarajapaksha&theme=github_dark" width="90%" />
+
+<br/>
+
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=weenukarajapaksha&theme=github_dark" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=weenukarajapaksha&theme=github_dark" />
+
+<br/>
+
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=weenukarajapaksha&theme=github_dark" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=weenukarajapaksha&theme=github_dark&utcOffset=5.5" />
+
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════
+     TIER 3 — the classic cards. These are currently NOT rendering
+     because the shared public instance is rate-limited (a known,
+     widespread problem — not a mistake in your file).
+
+     To bring them back permanently, self-host in ~5 minutes:
+       1. Fork  github.com/anuraghazra/github-readme-stats
+       2. Import the fork at vercel.com as a new project
+       3. Add an environment variable  PAT_1  = a GitHub token
+          (Settings → Developer settings → Personal access tokens)
+       4. Deploy, then swap  github-readme-stats.vercel.app
+          for  your-project.vercel.app  in the URLs below
+       5. Delete this comment wrapper to switch them back on
+
+<div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=weenukarajapaksha&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400&bg_color=0D1117&title_color=4ADE80&icon_color=22C55E&text_color=D1FAE5&ring_color=4ADE80" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weenukarajapaksha&layout=compact&hide_border=true&langs_count=8&cache_seconds=86400&bg_color=0D1117&title_color=4ADE80&text_color=D1FAE5" />
@@ -265,6 +296,8 @@ Problems I've actually had to solve, rather than tutorials I've followed:
 <img src="https://github-profile-trophy.vercel.app/?username=weenukarajapaksha&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=8" />
 
 </div>
+
+══════════════════════════════════════════════════════════════ -->
 
 ---
 
